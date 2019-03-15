@@ -1,3 +1,21 @@
 /*
-  Layout
+  * Title:
+    * Layout
+  * Description:
+    * The styling of all containers elements used to build page layout
+  * Sections:
+    * $. H2
 */
+
+body{
+  padding-top: 769px;
+}
+
+section{
+  border: 1px solid red;
+  height: 363px;
+
+  padding: 5.2em 0;
+  padding-left: 374px;
+  //text-align: center;
+}
