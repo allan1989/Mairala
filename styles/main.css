@@ -59,7 +59,7 @@ body {
 
 section {
   border: 1px solid red;
-  height: 363px;
+  height: 563px;
   padding: 5.2em 0;
   padding-left: 374px; }
 
@@ -95,5 +95,38 @@ section {
   width: 76px;
   margin: 46px auto auto auto;
   background-color: currentColor; }
+
+/*
+  * Title:
+    * Buttons
+  * Description:
+    * The styling of all call to action buttons
+  * Sections:
+    * $. Navigations buttons
+*/
+/* $. Internal navigations buttons
+\*----------------------------------------------------------------*/
+.button {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  word-spacing: 4px;
+  color: #000000;
+  border: 2px solid currentColor;
+  border-radius: 3px;
+  margin-top: 130px; }
+
+.button-arrow {
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 0.9em 1.4em; }
+  .button-arrow:after {
+    content: "\f30b";
+    display: inline-block;
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    margin-left: 7px; }
 
 /*# sourceMappingURL=main.css.map */
