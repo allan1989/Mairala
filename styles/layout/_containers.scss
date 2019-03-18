@@ -4,8 +4,20 @@
   * Description:
     * The styling of all containers elements used to build page layout
   * Sections:
-    * $. H2
+    * $. Main container
 */
+
+
+/* $. Main container
+\*----------------------------------------------------------------*/
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+
 
 body{
   padding-top: 769px;
