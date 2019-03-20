@@ -71,7 +71,7 @@ table {
 */
 /* $. H1
 \*----------------------------------------------------------------*/
-.siteLogo {
+.site__logo {
   font-family: "Oleo Script", cursive;
   font-size: 2.978em; }
 
@@ -139,9 +139,30 @@ table {
   * Description:
     * The styling of the header (which includes the logo and main navigation)
   * Sections:
+    * $. Layout
     * $. Main navigation
 */
+/* $. Layout
+\*----------------------------------------------------------------*/
+.site__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px; }
+
 /* $. Main navigation
 \*----------------------------------------------------------------*/
+.menu {
+  display: flex; }
+
+.menu__item {
+  margin-left: 45px; }
+
+.menu__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400; }
 
 /*# sourceMappingURL=main.css.map */
