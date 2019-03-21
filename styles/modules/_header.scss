@@ -4,9 +4,18 @@
   * Description:
     * The styling of the header (which includes the logo and main navigation)
   * Sections:
+    * $. Background Colors 
     * $. Layout
     * $. Main navigation
 */
+
+/* $. Background Colors
+\*----------------------------------------------------------------*/
+
+.header{
+  @include backgroundColor($color-black-light, $color-white);
+}
+
 
 /* $. Layout
 \*----------------------------------------------------------------*/
@@ -29,7 +38,7 @@
 }
 
 .menu__item{
-  margin-left: 45px;
+  margin-left: 41.5px;
 }
 
 .menu__link{
@@ -37,10 +46,13 @@
   text-decoration: none;
 
   font-family: $Raleway;
-  font-size: 0.8em;
+  font-size: 0.752em;
   font-weight: $regular;
+  letter-spacing: 1px;
 
   position: relative;
+
+  color: currentColor;
 }
 
 .menu__link.active:after{

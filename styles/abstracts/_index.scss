@@ -10,6 +10,7 @@
 /* $. Mixins
 \*----------------------------------------------------------------*/
 
-@mixin backgroundColor($color) {
-  background-color: $color;
+@mixin backgroundColor($bgColor, $color) {
+  background-color: $bgColor;
+  color: $color;
 }

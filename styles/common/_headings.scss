@@ -4,6 +4,7 @@
   * Description:
     * The styling of all headings (H1, H2, H3...H6)
   * Sections:
+    * $. H1
     * $. H2
 */
 
@@ -14,6 +15,7 @@
 .site__logo{
   font-family: $Oleo;
   font-size: 2.978em;
+  font-weight: $regular;
 }
 
 

@@ -67,13 +67,15 @@ table {
   * Description:
     * The styling of all headings (H1, H2, H3...H6)
   * Sections:
+    * $. H1
     * $. H2
 */
 /* $. H1
 \*----------------------------------------------------------------*/
 .site__logo {
   font-family: "Oleo Script", cursive;
-  font-size: 2.978em; }
+  font-size: 2.978em;
+  font-weight: 400; }
 
 /* $. H2
 \*----------------------------------------------------------------*/
@@ -149,9 +151,16 @@ table {
   * Description:
     * The styling of the header (which includes the logo and main navigation)
   * Sections:
+    * $. Background Colors 
     * $. Layout
     * $. Main navigation
 */
+/* $. Background Colors
+\*----------------------------------------------------------------*/
+.header {
+  background-color: #303030;
+  color: #ffffff; }
+
 /* $. Layout
 \*----------------------------------------------------------------*/
 .site__header {
@@ -166,15 +175,17 @@ table {
   display: flex; }
 
 .menu__item {
-  margin-left: 45px; }
+  margin-left: 41.5px; }
 
 .menu__link {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  font-size: 0.8em;
+  font-size: 0.752em;
   font-weight: 400;
-  position: relative; }
+  letter-spacing: 1px;
+  position: relative;
+  color: currentColor; }
 
 .menu__link.active:after {
   content: '';
