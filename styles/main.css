@@ -135,6 +135,16 @@ table {
 
 /*
   * Title:
+    * Abstracts
+  * Description:
+    * Handles functions, mixins, and placeholders
+  * Sections:
+    * $. Mixins
+*/
+/* $. Mixins
+\*----------------------------------------------------------------*/
+/*
+  * Title:
     * Header
   * Description:
     * The styling of the header (which includes the logo and main navigation)

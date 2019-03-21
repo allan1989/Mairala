@@ -1,0 +1,15 @@
+/*
+  * Title:
+    * Abstracts
+  * Description:
+    * Handles functions, mixins, and placeholders
+  * Sections:
+    * $. Mixins
+*/
+
+/* $. Mixins
+\*----------------------------------------------------------------*/
+
+@mixin backgroundColor($color) {
+  background-color: $color;
+}
