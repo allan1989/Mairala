@@ -39,4 +39,17 @@
   font-family: $Raleway;
   font-size: 0.8em;
   font-weight: $regular;
+
+  position: relative;
+}
+
+.menu__link.active:after{
+  content:'';
+  display: block;
+  margin-top: 7px;
+  height: 5px;
+  width: 100%;
+  background-color: $color-brown;
+
+  position: absolute;
 }
