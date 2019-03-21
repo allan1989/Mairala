@@ -13,7 +13,7 @@
 \*----------------------------------------------------------------*/
 
 .header{
-  @include backgroundColor($color-black-light, $color-white);
+  @include sectionColors($color-black-light, $color-white);
 }
 
 
