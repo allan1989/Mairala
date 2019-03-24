@@ -206,5 +206,28 @@ table {
 */
 /* $. Title
 \*----------------------------------------------------------------*/
+.hero {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 11.5em; }
+
+.hero__text {
+  padding-left: 7px;
+  letter-spacing: 2px; }
+
+.hero__text-top {
+  font-size: 1.500em; }
+
+.hero__text-bottom {
+  font-size: 4.125em;
+  font-weight: 600;
+  line-height: 1.14;
+  display: block;
+  padding-top: 11px; }
+
+.hero__text-important {
+  color: #7b6c63; }
 
 /*# sourceMappingURL=main.css.map */
