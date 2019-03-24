@@ -207,6 +207,7 @@ table {
     * The styling of the hero section
   * Sections:
     * $. Title
+    * $. Call To Action Button
 */
 /* $. Title
 \*----------------------------------------------------------------*/
@@ -215,10 +216,11 @@ table {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  padding-top: 11.5em; }
+  padding: 11.5em 0; }
 
 .hero__text {
   padding-left: 7px;
+  padding-bottom: 56px;
   letter-spacing: 2px; }
 
 .hero__text-top {
@@ -233,5 +235,20 @@ table {
 
 .hero__text-important {
   color: #7b6c63; }
+
+/* $. Call To Action Button
+\*----------------------------------------------------------------*/
+.hero__button {
+  color: inherit;
+  background-color: #7b6c63;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.3em 3.75em;
+  margin-left: 9px; }
+
+.hero__icon {
+  margin-left: 10px; }
 
 /*# sourceMappingURL=main.css.map */

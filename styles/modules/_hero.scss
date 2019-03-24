@@ -5,6 +5,7 @@
     * The styling of the hero section
   * Sections:
     * $. Title
+    * $. Call To Action Button
 */
 
 /* $. Title
@@ -17,11 +18,12 @@
   font-weight: $medium;
   text-transform: uppercase;
 
-  padding-top: 11.5em;
+  padding: 11.5em 0;
 }
 
 .hero__text{
   padding-left: 7px;
+  padding-bottom: 56px;
 
   letter-spacing: 2px;
 }
@@ -41,4 +43,24 @@
 
 .hero__text-important{
   color: $color-brown;
+}
+
+/* $. Call To Action Button
+\*----------------------------------------------------------------*/
+
+.hero__button{
+  color: inherit;
+  background-color: $color-brown;
+  border-radius: 5px;
+
+  letter-spacing: 2px;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 1.3em 3.75em;
+  margin-left: 9px;
+}
+
+.hero__icon{
+  margin-left: 10px;
 }
