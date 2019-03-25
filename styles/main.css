@@ -118,7 +118,7 @@ table {
 \*----------------------------------------------------------------*/
 .button {
   display: inline-block;
-  font-family: "Raleway", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-decoration: none;
@@ -277,5 +277,18 @@ table {
   line-height: 1.7;
   word-spacing: -2px;
   margin-top: 40px; }
+
+/*
+  * Title:
+    * Intro
+  * Description:
+    * The styling of the intro section
+  * Sections:
+    * $. Intro
+*/
+/* $. Intro
+\*----------------------------------------------------------------*/
+.intro {
+  font-family: "Raleway", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
