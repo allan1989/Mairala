@@ -85,7 +85,7 @@ table {
 \*----------------------------------------------------------------*/
 .heading-second {
   color: currentColor;
-  font-family: "Raleway", sans-serif;
+  font-family: inherit;
   text-transform: uppercase; }
 
 .heading-second-big-font {
@@ -253,5 +253,29 @@ table {
 
 .hero__icon {
   margin-left: 10px; }
+
+/*
+  * Title:
+    * About
+  * Description:
+    * The styling of the about section
+  * Sections:
+    * $. About
+*/
+/* $. About
+\*----------------------------------------------------------------*/
+.about {
+  color: #7b6c63;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 84px 0; }
+
+.about__text {
+  font-size: 1.125em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  word-spacing: -2px;
+  margin-top: 40px; }
 
 /*# sourceMappingURL=main.css.map */
