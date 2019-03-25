@@ -119,6 +119,7 @@ table {
 .button {
   display: inline-block;
   font-family: inherit;
+  font-size: inherit;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-decoration: none;
@@ -126,10 +127,9 @@ table {
   color: #000000;
   border: 2px solid currentColor;
   border-radius: 3px;
-  margin-top: 130px; }
+  margin-top: 10px; }
 
 .button-arrow {
-  font-size: 1em;
   text-transform: uppercase;
   padding: 0.9em 1.4em; }
   .button-arrow:after {
@@ -289,6 +289,52 @@ table {
 /* $. Intro
 \*----------------------------------------------------------------*/
 .intro {
-  font-family: "Raleway", sans-serif; }
+  background-color: #F5F5F5;
+  color: #7b6c63;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  position: relative;
+  overflow: hidden; }
+
+.intro::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  background-image: url("../../Mairala/img/team.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid blue; }
+
+.intro__inner::after {
+  content: '';
+  display: block;
+  width: 236px;
+  position: absolute;
+  top: 0;
+  bottom: -66px;
+  right: -157px;
+  z-index: -1;
+  background-color: #F5F5F5;
+  transform: rotate(-21deg); }
+
+.intro__inner {
+  padding: 88px 0 88px 8px;
+  max-width: 560px;
+  position: relative;
+  z-index: 1; }
+
+.intro__text {
+  color: #000000;
+  line-height: 30px; }
+
+.intro__text-top {
+  margin: 27px 0 30px 0; }
+
+.intro__text-bottom {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
