@@ -6,6 +6,7 @@
   * Sections:
     * $. H1
     * $. H2
+    * $. H3
 */
 
 
@@ -58,4 +59,20 @@
 
     background-color: currentColor;
   }
+}
+
+/* $. H3
+\*----------------------------------------------------------------*/
+
+.heading-three{
+  color: inherit;
+
+  font-family: inherit;
+  font-size: 1.125em;
+  font-weight: $medium;
+  letter-spacing: 1px;
+}
+
+.heading-three--uppercase{
+  text-transform: uppercase;
 }
