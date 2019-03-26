@@ -10,3 +10,33 @@
 /* $. Services
 \*----------------------------------------------------------------*/
 
+.services{
+  color: $color-brown;
+
+  font-family: $Raleway;
+  text-align: center
+}
+
+.services__inner{
+  padding-top: 86px;
+}
+
+.services__text{
+  color: $color-black;
+
+  font-size: 1em;
+  line-height: 30px;
+
+  padding-top: 26px;
+}
+
+.services-details{
+  display: flex;
+  margin-top: 85px;
+}
+
+.services-details__icon{
+  font-size: 1.6em;
+
+  margin-bottom: 33px;
+}

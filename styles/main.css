@@ -95,7 +95,7 @@ table {
 
 .heading-second-small-font {
   font-size: 1.500em;
-  font-weight: 500;
+  font-weight: 600;
   word-spacing: 4px; }
 
 .heading-border-bottom:after {
@@ -346,5 +346,26 @@ table {
 */
 /* $. Services
 \*----------------------------------------------------------------*/
+.services {
+  color: #7b6c63;
+  font-family: "Raleway", sans-serif;
+  text-align: center; }
+
+.services__inner {
+  padding-top: 86px; }
+
+.services__text {
+  color: #000000;
+  font-size: 1em;
+  line-height: 30px;
+  padding-top: 26px; }
+
+.services-details {
+  display: flex;
+  margin-top: 85px; }
+
+.services-details__icon {
+  font-size: 1.6em;
+  margin-bottom: 33px; }
 
 /*# sourceMappingURL=main.css.map */
