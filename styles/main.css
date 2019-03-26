@@ -306,8 +306,13 @@ table {
   left: 50%;
   background-image: url("../../Mairala/img/team.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  border: 1px solid blue; }
+  background-size: 100%; }
+
+.intro__inner {
+  padding: 88px 0 88px 8px;
+  max-width: 560px;
+  position: relative;
+  z-index: 1; }
 
 .intro__inner::after {
   content: '';
@@ -320,12 +325,6 @@ table {
   z-index: -1;
   background-color: #F5F5F5;
   transform: rotate(-21deg); }
-
-.intro__inner {
-  padding: 88px 0 88px 8px;
-  max-width: 560px;
-  position: relative;
-  z-index: 1; }
 
 .intro__text {
   color: #000000;

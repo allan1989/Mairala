@@ -34,9 +34,15 @@
   background-image: url('../../Mairala/img/team.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
-
-  border: 1px solid blue;
 }
+
+.intro__inner{
+  padding: 88px 0 88px 8px;
+  max-width: 560px;
+  position: relative;
+  z-index: 1;
+}
+
 .intro__inner::after{
   content: '';
   display: block;
@@ -50,13 +56,6 @@
 
   background-color: $color-grey-light;
   transform: rotate(-21deg);
-}
-
-.intro__inner{
-  padding: 88px 0 88px 8px;
-  max-width: 560px;
-  position: relative;
-  z-index: 1;
 }
 
 .intro__text{
