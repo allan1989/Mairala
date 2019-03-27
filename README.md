@@ -2,5 +2,6 @@
 Corporate Agency Template 
 
 ## Built With
-* HTML
-* CSS
+* HTML5
+* CSS3
+* Font-Awesome
