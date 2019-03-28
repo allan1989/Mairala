@@ -11,9 +11,11 @@
 \*----------------------------------------------------------------*/
 
 .skills{
-  color: $color-black;
-  background-color: cadetblue;
-
+  background-image: url('../img/skills.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: $color-white;
+  
   font-family: $Raleway;
   text-align: center;
 
@@ -37,10 +39,10 @@
 
 .skills__chart-percentage{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  
-  transform: translate(-50%, -50%);
+
+  transform: translate(-40%, -50%);
 }
 
 .skills__chart__label{

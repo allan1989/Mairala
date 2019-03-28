@@ -398,8 +398,10 @@ table {
 /* $. Skills
 \*----------------------------------------------------------------*/
 .skills {
-  color: #000000;
-  background-color: cadetblue;
+  background-image: url("../img/skills.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
   text-align: center;
   padding-top: 104px; }
@@ -417,9 +419,9 @@ table {
 
 .skills__chart-percentage {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-40%, -50%); }
 
 .skills__chart__label {
   margin-top: 26px; }
