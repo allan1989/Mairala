@@ -399,8 +399,29 @@ table {
 \*----------------------------------------------------------------*/
 .skills {
   color: #000000;
+  background-color: cadetblue;
   font-family: "Raleway", sans-serif;
   text-align: center;
   padding-top: 104px; }
+
+.skills__chart {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 86px; }
+
+.chart {
+  position: relative;
+  display: inherit;
+  flex-direction: column-reverse; }
+
+.skills__chart-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.skills__chart__label {
+  margin-top: 26px; }
 
 /*# sourceMappingURL=main.css.map */

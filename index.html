@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- / meta -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Josefin+Sans:100|Raleway:300,400,500,600" rel="stylesheet"/> 
+    <link href="styles/vendors/style.css" />
     <link href="styles/main.css" rel="stylesheet" type="text/css" media="screen" />
     <!-- / links -->
     <title>Mairala</title>
@@ -90,7 +91,37 @@
     <!-- /services section -->
     <section class="skills">
       <h2 class="heading-second heading-second-small-font">Our skills</h2>
+      <div class="container">
+        <div class="skills__chart">
+          <div class="chart" data-percent="85">
+            <span class="skills__chart-percentage">85%</span>
+            <div class="skills__chart__label">Marketing</div>
+          </div>
+          <div class="chart" data-percent="85">
+            <span class="skills__chart-percentage">85%</span>
+            <div class="skills__chart__label">Research</div>
+          </div>
+          <div class="chart" data-percent="85">
+            <span class="skills__chart-percentage">85%</span>
+            <div class="skills__chart__label">Management</div>
+          </div>
+          <div class="chart" data-percent="85">
+            <span class="skills__chart-percentage">85%</span>
+            <div class="skills__chart__label">Consultancy</div>
+          </div>
+          <div class="chart" data-percent="85">
+            <span class="skills__chart-percentage">85%</span>
+            <div class="skills__chart__label">Promotion</div>
+          </div>
+        </div>
+      </div>  
     </section>
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/index.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>
