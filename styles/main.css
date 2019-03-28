@@ -365,7 +365,8 @@ table {
   text-align: center; }
 
 .services__inner {
-  padding-top: 86px; }
+  padding-top: 86px;
+  padding-bottom: 55px; }
 
 .services__text {
   color: #000000;
@@ -385,5 +386,21 @@ table {
 .services-details__icon {
   font-size: 1.6em;
   margin-bottom: 33px; }
+
+/*
+  * Title:
+    * Skills
+  * Description:
+    * The styling of the Skills section
+  * Sections:
+    * $. Skills
+*/
+/* $. Skills
+\*----------------------------------------------------------------*/
+.skills {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-top: 104px; }
 
 /*# sourceMappingURL=main.css.map */
