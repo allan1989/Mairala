@@ -10,16 +10,8 @@
 /* $. Services
 \*----------------------------------------------------------------*/
 
-.services{
-  color: $color-brown;
-
-  font-family: $Raleway;
-  text-align: center
-}
-
 .services__inner{
-  padding-top: 86px;
-  padding-bottom: 55px;
+  @extend %section;
 }
 
 .services__text{

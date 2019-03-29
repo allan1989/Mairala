@@ -5,6 +5,7 @@
     * Handles functions, mixins, and placeholders
   * Sections:
     * $. Mixins
+    * $. Placeholders
 */
 
 /* $. Mixins
@@ -13,4 +14,17 @@
 @mixin sectionColors($bgColor, $color) {
   background-color: $bgColor;
   color: $color;
+}
+
+
+/* $. Placeholders
+\*----------------------------------------------------------------*/
+
+%section{
+  color: $color-brown;
+
+  font-family: $Raleway;
+  text-align: center;
+
+  padding: 84px 0;
 }

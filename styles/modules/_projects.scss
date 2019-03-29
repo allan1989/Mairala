@@ -10,15 +10,8 @@
 /* $. Projects
 \*----------------------------------------------------------------*/
 
-.projects{
-  font-family: $Raleway;
-  text-align: center;
-
-  color: $color-brown;
-}
-
 .projects__inner{
-  padding: 84px 0;
+  @extend %section;
 }
 
 .projects__thumbnails{

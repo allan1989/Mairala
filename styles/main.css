@@ -159,9 +159,18 @@ table {
     * Handles functions, mixins, and placeholders
   * Sections:
     * $. Mixins
+    * $. Placeholders
 */
 /* $. Mixins
 \*----------------------------------------------------------------*/
+/* $. Placeholders
+\*----------------------------------------------------------------*/
+.about, .services__inner, .projects__inner {
+  color: #7b6c63;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 84px 0; }
+
 /*
   * Title:
     * Header
@@ -277,12 +286,6 @@ table {
 */
 /* $. About
 \*----------------------------------------------------------------*/
-.about {
-  color: #7b6c63;
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  padding: 84px 0; }
-
 .about__text {
   font-size: 1.125em;
   font-weight: 400;
@@ -359,15 +362,6 @@ table {
 */
 /* $. Services
 \*----------------------------------------------------------------*/
-.services {
-  color: #7b6c63;
-  font-family: "Raleway", sans-serif;
-  text-align: center; }
-
-.services__inner {
-  padding-top: 86px;
-  padding-bottom: 55px; }
-
 .services__text {
   color: #000000;
   font-size: 1em;
@@ -436,14 +430,6 @@ table {
 */
 /* $. Projects
 \*----------------------------------------------------------------*/
-.projects {
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  color: #7b6c63; }
-
-.projects__inner {
-  padding: 84px 0; }
-
 .projects__thumbnails {
   border: 1px solid blue; }
 
