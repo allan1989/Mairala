@@ -426,4 +426,25 @@ table {
 .skills__chart__label {
   margin-top: 26px; }
 
+/*
+  * Title:
+    * Projects
+  * Description:
+    * The styling of the Projects section
+  * Sections:
+    * $. Projects
+*/
+/* $. Projects
+\*----------------------------------------------------------------*/
+.projects {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #7b6c63; }
+
+.projects__inner {
+  padding: 84px 0; }
+
+.projects__thumbnails {
+  border: 1px solid blue; }
+
 /*# sourceMappingURL=main.css.map */

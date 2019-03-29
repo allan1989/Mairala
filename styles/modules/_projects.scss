@@ -1,0 +1,26 @@
+/*
+  * Title:
+    * Projects
+  * Description:
+    * The styling of the Projects section
+  * Sections:
+    * $. Projects
+*/
+
+/* $. Projects
+\*----------------------------------------------------------------*/
+
+.projects{
+  font-family: $Raleway;
+  text-align: center;
+
+  color: $color-brown;
+}
+
+.projects__inner{
+  padding: 84px 0;
+}
+
+.projects__thumbnails{
+  border: 1px solid blue;
+}
