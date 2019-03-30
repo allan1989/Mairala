@@ -438,6 +438,7 @@ table {
 .projects__thumbnails-item {
   height: 346px;
   width: 482px;
+  overflow: hidden;
   position: relative; }
 
 .item1 {
@@ -470,8 +471,7 @@ table {
   font-family: "Raleway", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  padding: 7.5em 9em;
-  overflow: hidden; }
+  padding: 7.5em 9em; }
 
 .projects__thumbnails-item:hover .projects__thumbnails-details {
   top: 50%;

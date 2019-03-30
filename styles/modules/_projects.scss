@@ -25,6 +25,7 @@
 .projects__thumbnails-item{
   height: 346px;
   width: 482px;
+  overflow: hidden;
 
   position: relative;
 }
@@ -67,7 +68,6 @@
   text-transform: uppercase;
 
   padding: 7.5em 9em;
-  overflow: hidden;
 }
 
 .projects__thumbnails-item:hover .projects__thumbnails-details{
