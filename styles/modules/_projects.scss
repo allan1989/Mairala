@@ -70,7 +70,8 @@
   padding: 7.5em 9em;
 }
 
-.projects__thumbnails-item:hover .projects__thumbnails-details{
+.projects__thumbnails-item:hover .projects__thumbnails-details,
+.projects__thumbnails-item:focus .projects__thumbnails-details{
   top: 50%;
   transition: top .3s ease;
 }
