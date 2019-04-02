@@ -309,10 +309,9 @@ table {
   color: #7b6c63;
   font-family: "Raleway", sans-serif;
   font-size: 1em;
-  position: relative;
   overflow: hidden; }
 
-.intro::after {
+.intro__outer::after {
   content: '';
   display: block;
   position: absolute;
@@ -323,6 +322,11 @@ table {
   background-image: url("../../Mairala/img/team.jpg");
   background-repeat: no-repeat;
   background-size: 100%; }
+
+.intro__outer {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto; }
 
 .intro__inner {
   padding: 88px 0 88px 8px;

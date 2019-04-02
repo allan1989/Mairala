@@ -17,11 +17,10 @@
   font-family: $Raleway;
   font-size: 1em;
 
-  position: relative;
   overflow: hidden;
 }
 
-.intro::after{
+.intro__outer::after{
   content: '';
   display: block;
 
@@ -34,6 +33,12 @@
   background-image: url('../../Mairala/img/team.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.intro__outer{
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .intro__inner{
