@@ -437,7 +437,8 @@ table {
 .projects__thumbnails {
   border: 1px solid blue;
   color: #ffffff;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 .projects__thumbnails-item {
   height: 346px;
