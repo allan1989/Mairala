@@ -68,9 +68,16 @@
   color: inherit;
 
   font-family: inherit;
-  font-size: 1.125em;
   font-weight: $medium;
   letter-spacing: 1px;
+}
+
+.heading-three--small{
+  font-size: 1.125em;
+}
+
+.heading-three--large{
+  font-size: 1.500em;
 }
 
 .heading-three--uppercase{

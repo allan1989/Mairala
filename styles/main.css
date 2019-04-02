@@ -112,9 +112,14 @@ table {
 .heading-three {
   color: inherit;
   font-family: inherit;
-  font-size: 1.125em;
   font-weight: 500;
   letter-spacing: 1px; }
+
+.heading-three--small {
+  font-size: 1.125em; }
+
+.heading-three--large {
+  font-size: 1.500em; }
 
 .heading-three--uppercase {
   text-transform: uppercase; }
@@ -499,5 +504,33 @@ table {
   font-size: 0.875em;
   font-weight: 300;
   letter-spacing: 2px; }
+
+/*
+  * Title:
+    * Common section
+  * Description:
+    * The styling of the common section used twice on the page
+  * Sections:
+    * $. Section
+*/
+/* $. Section
+\*----------------------------------------------------------------*/
+.section {
+  background-color: #303030;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 134px 0; }
+
+.section__text {
+  padding: 34px 0;
+  font-size: 1.125em; }
+
+.section__link {
+  color: #89c4f4;
+  font-size: 1.125em;
+  text-decoration: none; }
+  .section__link:hover {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

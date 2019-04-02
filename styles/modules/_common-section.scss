@@ -1,0 +1,38 @@
+/*
+  * Title:
+    * Common section
+  * Description:
+    * The styling of the common section used twice on the page
+  * Sections:
+    * $. Section
+*/
+
+/* $. Section
+\*----------------------------------------------------------------*/
+
+.section{
+  background-color: $color-black-medium;
+  color: $color-white;
+
+  font-family: $Raleway;
+  text-align: center;
+
+  padding: 134px 0;
+}
+
+.section__text{
+  padding: 34px 0;
+
+  font-size: 1.125em;
+}
+
+.section__link{
+  color: $color-blue;
+
+  font-size: 1.125em;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
