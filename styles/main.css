@@ -146,6 +146,9 @@ table {
   border: 2px solid currentColor;
   border-radius: 3px;
   margin-top: 10px; }
+  .button:hover {
+    background-color: #929292;
+    transition: background-color .8s ease; }
 
 .button-arrow {
   text-transform: uppercase;
@@ -504,6 +507,13 @@ table {
   font-size: 0.875em;
   font-weight: 300;
   letter-spacing: 2px; }
+
+.projects__more {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  padding: 78px 0 90px 0;
+  border: 1px solid red; }
 
 /*
   * Title:
