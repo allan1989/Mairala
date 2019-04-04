@@ -543,4 +543,15 @@ table {
   .section__link:hover {
     text-decoration: underline; }
 
+/*
+  * Title:
+    * Team
+  * Description:
+    * The styling of the Team used twice on the page
+  * Sections:
+    * $. Team
+*/
+/* $. Team
+\*----------------------------------------------------------------*/
+
 /*# sourceMappingURL=main.css.map */
