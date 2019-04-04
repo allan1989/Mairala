@@ -4,6 +4,7 @@
 // Font families
 $Josephin:  'Josefin Sans', sans-serif;
 $Oleo:      'Oleo Script', cursive;
+$Orator:    'Orator', sans-serif;
 $Raleway:   'Raleway', sans-serif;
 
 
@@ -14,3 +15,10 @@ $regular:   400;
 $medium:    500;
 $semi-bold: 600;
 $bold:      900;
+
+@font-face {
+  font-family: "Orator";
+  src: url('../fonts/orator10.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

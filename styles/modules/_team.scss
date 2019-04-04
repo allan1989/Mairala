@@ -4,10 +4,11 @@
   * Description:
     * The styling of the Team section
   * Sections:
-    * $. Team
+    * $. Intro
+    * $. Members
 */
 
-/* $. Team
+/* $. Intro
 \*----------------------------------------------------------------*/
 
 .team__inner{
@@ -16,4 +17,92 @@
 
 .team__text{
   @extend %section__text;
+}
+
+
+
+
+/* $. Members
+\*----------------------------------------------------------------*/
+
+.team__members{
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__member{
+  &:hover .team__member-details{
+    border-color: $color-black; 
+  }
+  &:hover .team__member-social{
+    transform: translateX(0);
+    transition: transform .9s ease;
+  }
+}
+
+.team__member-pic{
+  width: 369px;
+  position: relative;
+  overflow: hidden;
+}
+
+.team__member-img{
+  width: 100%;
+  height: auto;
+}
+
+.team__member-details{
+  border: 3px solid $color-grey-medium;
+  margin-top: 18px;
+
+  font-weight: $medium;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team__member-name{
+  font-family: $Raleway;
+  font-size: 1.499em;
+  letter-spacing: 1.6px;
+
+  padding-top: .85em;
+}
+
+.team__member-job{
+  font-family: $Orator;
+  font-size: 0.75em;
+  letter-spacing: 3px;
+
+  padding-top: 1.45em;
+  padding-bottom: 1.9em;
+}
+
+.team__member-social{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 3px;
+  transform: translateX(400px);
+  transition: transform .9s ease;
+
+  background-color: rgba(0, 0, 0, .9);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.team__member-social-link{
+  border: 3px solid white;
+  border-radius: 50%;
+  color: $color-white;
+
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 50px;
+
+  height: 50px;
+  width: 50px;
 }
