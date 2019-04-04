@@ -10,10 +10,6 @@
 /* $. Projects
 \*----------------------------------------------------------------*/
 
-.projects__inner{
-  @extend %section;
-}
-
 .projects__thumbnails{
   border: 1px solid blue;
 
@@ -29,6 +25,10 @@
   overflow: hidden;
 
   position: relative;
+}
+
+.projects__inner{
+  @extend %section;
 }
 
 .item1{
@@ -105,4 +105,8 @@
   padding: 78px 0 90px 0;
 
   border: 1px solid red;
+}
+
+.projects__text{
+  @extend %section__text;
 }

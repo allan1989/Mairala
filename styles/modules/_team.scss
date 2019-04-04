@@ -2,10 +2,18 @@
   * Title:
     * Team
   * Description:
-    * The styling of the Team used twice on the page
+    * The styling of the Team section
   * Sections:
     * $. Team
 */
 
 /* $. Team
 \*----------------------------------------------------------------*/
+
+.team__inner{
+  @extend %section;
+}
+
+.team__text{
+  @extend %section__text;
+}

@@ -173,11 +173,19 @@ table {
 \*----------------------------------------------------------------*/
 /* $. Placeholders
 \*----------------------------------------------------------------*/
-.about, .services__inner, .projects__inner {
+.about, .services__inner, .projects__inner, .section__intro, .team__inner {
   color: #7b6c63;
   font-family: "Raleway", sans-serif;
   text-align: center;
   padding: 84px 0; }
+
+.about__text, .projects__text, .team__text {
+  font-size: 1.125em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  word-spacing: -2px;
+  margin-top: 40px; }
 
 /*
   * Title:
@@ -294,14 +302,6 @@ table {
 */
 /* $. About
 \*----------------------------------------------------------------*/
-.about__text {
-  font-size: 1.125em;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.7;
-  word-spacing: -2px;
-  margin-top: 40px; }
-
 /*
   * Title:
     * Intro
@@ -547,7 +547,7 @@ table {
   * Title:
     * Team
   * Description:
-    * The styling of the Team used twice on the page
+    * The styling of the Team section
   * Sections:
     * $. Team
 */

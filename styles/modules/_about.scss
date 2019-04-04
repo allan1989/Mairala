@@ -15,11 +15,5 @@
 }
 
 .about__text{
-  font-size: 1.125em;
-  font-weight: $regular;
-  letter-spacing: 1px;
-  line-height: 1.7;
-  word-spacing: -2px;
-
-  margin-top: 40px;
+  @extend %section__text;
 }

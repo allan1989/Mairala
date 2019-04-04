@@ -20,6 +20,10 @@
   padding: 134px 0;
 }
 
+.section__intro{
+  @extend %section;
+}
+
 .section__text{
   padding: 34px 0;
 
