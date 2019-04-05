@@ -117,7 +117,7 @@ table {
 .heading-three {
   color: inherit;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px; }
 
 .heading-three--small {
@@ -559,6 +559,9 @@ table {
 */
 /* $. Intro
 \*----------------------------------------------------------------*/
+.team {
+  padding-bottom: 90px; }
+
 /* $. Members
 \*----------------------------------------------------------------*/
 .team__members {
@@ -625,5 +628,61 @@ table {
   width: 50px; }
   .team__member-social-link:hover {
     border-color: transparent; }
+
+/*
+  * Title:
+    * Testimonials
+  * Description:
+    * The styling of the testimonials section
+  * Sections:
+    * $. Slider
+*/
+/* $. Slider
+\*----------------------------------------------------------------*/
+.testimonials {
+  background-color: #303030;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 86px 0; }
+
+.testimonials__wrapper {
+  font-size: 1.20em;
+  line-height: 1.8;
+  word-spacing: 2px;
+  overflow: hidden; }
+
+.testimonials__content {
+  display: flex;
+  transition: all .9s ease; }
+
+.testimonials__inner {
+  margin-top: 36px;
+  color: #929292; }
+
+.testimonials__author {
+  margin-top: 38px; }
+
+.testimonials__link {
+  color: #89c4f4;
+  font-size: .9em;
+  text-decoration: none; }
+  .testimonials__link:hover {
+    text-decoration: underline; }
+
+.testimonials__controls {
+  margin-top: 30px; }
+
+.testimonials__button {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block; }
+  .testimonials__button:hover {
+    cursor: pointer; }
+
+.testimonials__button.active {
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

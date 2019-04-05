@@ -1,0 +1,77 @@
+/*
+  * Title:
+    * Testimonials
+  * Description:
+    * The styling of the testimonials section
+  * Sections:
+    * $. Slider
+*/
+
+/* $. Slider
+\*----------------------------------------------------------------*/
+
+.testimonials{
+  background-color: $color-black-medium;
+  color: $color-white;
+
+  font-family: $Raleway;
+  text-align: center;
+
+  padding: 86px 0;
+}
+
+.testimonials__wrapper{
+  font-size: 1.20em;
+  line-height: 1.8;
+  word-spacing: 2px;
+
+  overflow: hidden;
+}
+
+.testimonials__content{
+  display: flex;
+  transition: all .9s ease;
+}
+
+
+.testimonials__inner{
+  margin-top: 36px;
+  color: $color-grey-medium;
+}
+
+.testimonials__author{
+  margin-top: 38px;
+}
+
+.testimonials__link{
+  color: $color-blue;
+
+  font-size: .9em;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.testimonials__controls{
+  margin-top: 30px;
+}
+
+.testimonials__button{
+  width: 15px;
+  height: 15px;
+
+  border: 2px solid $color-white;
+  border-radius: 50%;
+
+  display: inline-block;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.testimonials__button.active{
+  background-color: $color-white;
+}
