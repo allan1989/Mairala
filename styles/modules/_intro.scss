@@ -11,8 +11,7 @@
 \*----------------------------------------------------------------*/
 
 .intro{
-  background-color: $color-grey-light;
-  color: $color-brown;
+  @include sectionColors($color-grey-light,$color-brown);
 
   font-family: $Raleway;
   font-size: 1em;

@@ -13,10 +13,13 @@
 
 .team{
   padding-bottom: 90px;
+
+  background-color: $color-grey-light;
 }
 
 .team__inner{
   @extend %section;
+  padding: 84px 0 74px 0;
 }
 
 .team__text{

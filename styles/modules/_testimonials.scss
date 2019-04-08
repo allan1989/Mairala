@@ -11,13 +11,12 @@
 \*----------------------------------------------------------------*/
 
 .testimonials{
-  background-color: $color-black-medium;
-  color: $color-white;
+  @include sectionColors($color-black-dark, $color-white);
 
   font-family: $Raleway;
   text-align: center;
 
-  padding: 86px 0;
+  padding: 86px 0 0 0;
 }
 
 .testimonials__wrapper{
@@ -35,12 +34,14 @@
 
 
 .testimonials__inner{
-  margin-top: 36px;
+  padding-top: 36px;
   color: $color-grey-medium;
 }
 
 .testimonials__author{
   margin-top: 38px;
+
+  color: $color-brown;
 }
 
 .testimonials__link{

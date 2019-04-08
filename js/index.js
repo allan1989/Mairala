@@ -45,12 +45,15 @@ $(document).ready(function(){
   var $inner    =  $('.testimonials__inner');
   var $controls =  $('.testimonials__button');
 
-  var $innerHeight =  $inner.outerHeight(true);
+  //var $innerHeight =  $inner.first().outerHeight(true);
+  var $innerHeight =  $content.height();
   var $width       =  $content.children().width() * $content.children().length * $content.children().length;
 
   $wrapper.height($innerHeight + 'px');
   $content.width($width);
   $inner.width($width / 3);
+
+  console.log($innerHeight);
 
 
   $controls.on('click', function(){

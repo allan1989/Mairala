@@ -12,6 +12,7 @@
 
 .services__inner{
   @extend %section;
+  padding: 84px 0 54px 0;
 }
 
 .services__text{
@@ -32,6 +33,7 @@
 
 .services__text--details{
   padding: 16px 15px 0px 15px;
+  opacity: .5;
 }
 
 .services-details__icon{

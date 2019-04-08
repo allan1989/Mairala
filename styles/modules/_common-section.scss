@@ -11,8 +11,7 @@
 \*----------------------------------------------------------------*/
 
 .section{
-  background-color: $color-black-medium;
-  color: $color-white;
+  @include sectionColors($color-black-medium, $color-white);
 
   font-family: $Raleway;
   text-align: center;
