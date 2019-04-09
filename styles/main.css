@@ -650,7 +650,7 @@ table {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  padding: 86px 0 0 0; }
+  padding: 86px 0; }
 
 .testimonials__wrapper {
   font-size: 1.20em;
@@ -663,8 +663,8 @@ table {
   transition: all .9s ease; }
 
 .testimonials__inner {
-  padding-top: 36px;
-  color: #929292; }
+  color: #929292;
+  margin-top: 36px; }
 
 .testimonials__author {
   margin-top: 38px;

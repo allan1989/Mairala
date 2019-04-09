@@ -16,7 +16,7 @@
   font-family: $Raleway;
   text-align: center;
 
-  padding: 86px 0 0 0;
+  padding: 86px 0;
 }
 
 .testimonials__wrapper{
@@ -32,10 +32,9 @@
   transition: all .9s ease;
 }
 
-
 .testimonials__inner{
-  padding-top: 36px;
   color: $color-grey-medium;
+  margin-top: 36px;
 }
 
 .testimonials__author{
