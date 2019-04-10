@@ -1,0 +1,27 @@
+/*
+  * Title:
+    * Blog
+  * Description:
+    * The styling of the blog section
+  * Sections:
+    * $. Intro
+    * $. Articles
+*/
+
+/* $. Intro
+\*----------------------------------------------------------------*/
+
+// .blog{
+//   padding-bottom: 90px;
+
+//   background-color: $color-grey-light;
+// }
+
+.blog__inner{
+  @extend %section;
+  padding: 84px 0 74px 0;
+}
+
+.blog__text{
+  @extend %section__text;
+}

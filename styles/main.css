@@ -178,13 +178,13 @@ table {
 \*----------------------------------------------------------------*/
 /* $. Placeholders
 \*----------------------------------------------------------------*/
-.about, .services__inner, .projects__inner, .section__intro, .team__inner {
+.about, .services__inner, .projects__inner, .section__intro, .team__inner, .blog__inner {
   color: #7b6c63;
   font-family: "Raleway", sans-serif;
   text-align: center;
   padding: 84px 0; }
 
-.about__text, .projects__text, .team__text {
+.about__text, .projects__text, .team__text, .blog__text {
   font-size: 1.125em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -691,5 +691,19 @@ table {
 
 .testimonials__button.active {
   background-color: #ffffff; }
+
+/*
+  * Title:
+    * Blog
+  * Description:
+    * The styling of the blog section
+  * Sections:
+    * $. Intro
+    * $. Articles
+*/
+/* $. Intro
+\*----------------------------------------------------------------*/
+.blog__inner {
+  padding: 84px 0 74px 0; }
 
 /*# sourceMappingURL=main.css.map */
