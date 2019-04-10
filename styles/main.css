@@ -707,4 +707,12 @@ table {
 .blog__inner {
   padding: 84px 0 74px 0; }
 
+/* $. Intro
+\*----------------------------------------------------------------*/
+.article {
+  height: 330px;
+  background-image: url("../img/divider.png");
+  background-repeat: no-repeat;
+  background-position: top center; }
+
 /*# sourceMappingURL=main.css.map */
