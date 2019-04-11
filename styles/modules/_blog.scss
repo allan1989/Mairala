@@ -33,9 +33,22 @@
 /* $. Intro
 \*----------------------------------------------------------------*/
 
+.articles{
+  padding-bottom: 50px;
+}
+
 .article{
   height: 330px;
   background-image: url('../img/divider.png');
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.blog__footer{
+  text-align: center;
+  background-image: url('../img/divider-line-only.png');
+  background-repeat: no-repeat;
+  background-position: center;  
+  padding-top: 54px;
+  border: 1px solid;
 }
