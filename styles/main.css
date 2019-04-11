@@ -726,4 +726,16 @@ table {
   padding-top: 54px;
   border: 1px solid; }
 
+.blog__call-to-action-button {
+  background-color: #7b6c63;
+  border: 8px solid #ebebeb;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  padding: 20px;
+  font-weight: 500;
+  text-decoration: none; }
+  .blog__call-to-action-button:hover {
+    border-color: transparent; }
+
 /*# sourceMappingURL=main.css.map */
