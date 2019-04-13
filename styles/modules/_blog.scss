@@ -6,6 +6,7 @@
   * Sections:
     * $. Intro
     * $. Articles
+    * $. Footer
 */
 
 /* $. Intro
@@ -30,7 +31,7 @@
 
 
 
-/* $. Intro
+/* $. Articles
 \*----------------------------------------------------------------*/
 
 .articles{
@@ -38,11 +39,43 @@
 }
 
 .article{
-  height: 330px;
+  //height: 330px;
   background-image: url('../img/divider.png');
   background-repeat: no-repeat;
   background-position: top center;
+
+  display: flex;
 }
+
+.article__thumbnail{
+  height: 100px;
+  background-color: green;
+  width: 50%;
+  border: 1px solid red;
+}
+
+.article__img{
+  width: 100%;
+}
+
+.article__content{
+  width: 50%;
+}
+
+.article__content-odd .article__layout-content{
+  margin-left: 48px;
+}
+
+.article__content-even .article__layout-content{
+  margin-right: 30px;
+}
+
+
+
+
+
+/* $. Footer
+\*----------------------------------------------------------------*/
 
 .blog__footer{
   text-align: center;
