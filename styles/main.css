@@ -767,6 +767,12 @@ table {
   display: block;
   margin-bottom: 15px; }
 
+.article__link {
+  color: currentColor;
+  text-decoration: none; }
+  .article__link:hover {
+    text-decoration: underline; }
+
 .article__excerpt {
   margin-top: 22px;
   font-size: 0.999em;

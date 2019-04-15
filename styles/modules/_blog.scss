@@ -91,6 +91,14 @@
   margin-bottom: 15px;
 }
 
+.article__link{
+  color: currentColor;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
 .article__excerpt{
   margin-top: 22px;
 
