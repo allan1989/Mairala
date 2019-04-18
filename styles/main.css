@@ -730,11 +730,9 @@ table {
   font-family: "Raleway", sans-serif; }
 
 .article__thumbnail {
-  width: 50%;
-  border: 1px solid red; }
+  width: 50%; }
 
 .article__layout {
-  border: 1px solid yellow;
   height: 274px;
   width: 476px;
   background-image: url("../img/article.jpg");
@@ -787,12 +785,10 @@ table {
   background-image: url("../img/divider-line-only.png");
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 54px;
-  border: 1px solid; }
+  padding-top: 54px; }
 
 .blog__call-to-action-button {
   background-color: #7b6c63;
-  border: 8px solid #ebebeb;
   border-radius: 50%;
   color: #ffffff;
   display: inline-block;

@@ -45,11 +45,9 @@
 
 .article__thumbnail{
   width: 50%;
-  border: 1px solid red;
 }
 
 .article__layout{
-  border: 1px solid yellow;
   height: 274px;
   width: 476px;
   background-image: url('../img/article.jpg');
@@ -123,12 +121,10 @@
   background-position: center;  
 
   padding-top: 54px;
-  border: 1px solid;
 }
 
 .blog__call-to-action-button{
   background-color: $color-brown;
-  border: 8px solid #ebebeb;
   border-radius: 50%;
   color: $color-white;
 
