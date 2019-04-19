@@ -7,3 +7,13 @@
     * $. Title
     * $. Form
 */
+
+// 770px
+
+.contact{
+  @include sectionColors($color-grey-light, $color-brown);
+}
+
+.contact__wrapper{
+  @extend %section; 
+}

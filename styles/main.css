@@ -98,6 +98,7 @@ table {
 .heading-second-big-font {
   font-size: 2.500em;
   font-weight: 600;
+  letter-spacing: 1px;
   word-spacing: 2px; }
 
 .heading-second-small-font {
@@ -186,7 +187,7 @@ table {
 \*----------------------------------------------------------------*/
 /* $. Placeholders
 \*----------------------------------------------------------------*/
-.about, .services__inner, .projects__inner, .section__intro, .team__inner, .blog__inner {
+.about, .services__inner, .projects__inner, .section__intro, .team__inner, .blog__inner, .contact__wrapper {
   color: #7b6c63;
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -714,12 +715,12 @@ table {
 /* $. Intro
 \*----------------------------------------------------------------*/
 .blog__inner {
-  padding: 84px 0 74px 0; }
+  padding: 84px 0 66px 0; }
 
 /* $. Articles
 \*----------------------------------------------------------------*/
 .articles {
-  padding-bottom: 50px; }
+  padding-bottom: 90px; }
 
 .article {
   background-image: url("../img/divider.png");
@@ -808,5 +809,8 @@ table {
     * $. Title
     * $. Form
 */
+.contact {
+  background-color: #F5F5F5;
+  color: #7b6c63; }
 
 /*# sourceMappingURL=main.css.map */
