@@ -798,4 +798,14 @@ table {
   .blog__call-to-action-button:hover {
     border-color: transparent; }
 
+/*
+  * Title:
+    * Contact
+  * Description:
+    * The styling of the contact section
+  * Sections:
+    * $. Title
+    * $. Form
+*/
+
 /*# sourceMappingURL=main.css.map */
