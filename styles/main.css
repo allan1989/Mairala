@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, textarea {
   margin: 0;
   padding: 0;
   border: 0;
@@ -200,6 +200,14 @@ table {
   line-height: 1.7;
   word-spacing: -2px;
   margin-top: 40px; }
+
+.contact__form-input, .contact__form-textarea {
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: 1px;
+  outline: none;
+  padding: 15px 0 15px 16px; }
 
 /*
   * Title:
@@ -809,8 +817,38 @@ table {
     * $. Title
     * $. Form
 */
+/* $. Title
+\*----------------------------------------------------------------*/
 .contact {
   background-color: #F5F5F5;
   color: #7b6c63; }
+
+/* $. Form
+\*----------------------------------------------------------------*/
+.contact__form-wrapper {
+  margin: 82px auto 0;
+  width: 770px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.999em; }
+
+.contact__form-top {
+  display: flex;
+  justify-content: space-between; }
+
+.contact__form-input {
+  border: none;
+  border-top: 4px solid #1A1A1A;
+  width: 352px; }
+
+.contact__form-bottom {
+  margin-top: 28px;
+  margin-bottom: 30px; }
+
+.contact__form-textarea {
+  border-top: 4px solid #1A1A1A;
+  border-bottom: 1px solid #1A1A1A;
+  resize: none;
+  height: 150px;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

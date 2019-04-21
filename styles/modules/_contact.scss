@@ -8,12 +8,60 @@
     * $. Form
 */
 
-// 770px
+
+
+
+
+/* $. Title
+\*----------------------------------------------------------------*/
 
 .contact{
   @include sectionColors($color-grey-light, $color-brown);
 }
 
+
+
+
+/* $. Form
+\*----------------------------------------------------------------*/
+
 .contact__wrapper{
-  @extend %section; 
+  @extend %section;
+}
+
+.contact__form-wrapper{
+  margin: 82px auto 0;
+  width: 770px;
+
+  font-family: $OpenSans;
+  font-size: 0.999em;
+}
+
+.contact__form-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__form-input{
+  border: none;
+  border-top: 4px solid $color-black-dark;
+
+  @extend %form__visuals;
+  width: 352px;
+}
+
+.contact__form-bottom{
+  margin-top: 28px;
+  margin-bottom: 30px;
+}
+
+.contact__form-textarea{
+  border-top: 4px solid $color-black-dark;;
+  border-bottom: 1px solid $color-black-dark;;
+
+  resize: none;
+  height: 150px;
+  width: 100%;
+
+  @extend %form__visuals;
 }

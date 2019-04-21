@@ -60,7 +60,7 @@ $(document).ready(function(){
     $this.addClass('active');
 
     $content.css({
-      "transform": "translateX(-" + $val +")"
+      "transform": "translateX(-" + $val + ")"
     });
 
   });
