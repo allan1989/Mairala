@@ -52,7 +52,7 @@
 
 .contact__form-bottom{
   margin-top: 28px;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .contact__form-textarea{
@@ -64,4 +64,21 @@
   width: 100%;
 
   @extend %form__visuals;
+}
+
+.contact__form-button{
+  background: transparent;
+  border: 2px solid $color-black-dark;
+
+  font-family: $Raleway;
+  font-size: 1.124em;
+  font-weight: $semi-bold;
+  letter-spacing: 1px;
+  
+  padding: 0.55em 2.8em;
+  
+  &:hover{
+    background-color: $color-grey-medium;
+    transition: background-color .8s ease;
+  }
 }
