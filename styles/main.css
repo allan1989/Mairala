@@ -138,6 +138,13 @@ table {
   font-size: 1.499em;
   letter-spacing: 1px; }
 
+/* $. H5
+\*----------------------------------------------------------------*/
+.heading-five {
+  font-size: 1.124em;
+  font-weight: 400;
+  text-transform: uppercase; }
+
 /*
   * Title:
     * Buttons
@@ -874,7 +881,28 @@ table {
 */
 /* $. Footer
 \*----------------------------------------------------------------*/
-.footer__content-info {
+.footer {
+  background-color: #222222;
+  font-family: "Raleway", sans-serif; }
+
+.footer__content {
+  padding-top: 60px;
+  display: flex; }
+  .footer__content section {
+    width: 25%; }
+
+.footer__info {
   color: #7b6c63; }
+
+.footer__info-text {
+  font-size: 0.874em;
+  font-weight: 500;
+  letter-spacing: .50px;
+  line-height: 23.98px;
+  word-spacing: 1px;
+  margin-top: 18px;
+  padding-right: 18px;
+  color: #929292;
+  opacity: .8; }
 
 /*# sourceMappingURL=main.css.map */
