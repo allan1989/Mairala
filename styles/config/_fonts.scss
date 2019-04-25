@@ -1,7 +1,21 @@
-// FONTS
+/*
+  * Title:
+    * Fonts
+  * Description:
+    * The styling definitions of everything related to fonts
+  * Sections:
+    * $. Font Families
+    * $. Font Weights
+    * $. Font-Face 
+
+*/
 
 
-// Font families
+
+
+/* $. Font Families
+\*----------------------------------------------------------------*/
+
 $Josephin:  'Josefin Sans', sans-serif;
 $Oleo:      'Oleo Script', cursive;
 $Orator:    'Orator', sans-serif;
@@ -9,13 +23,22 @@ $Raleway:   'Raleway', sans-serif;
 $OpenSans:  'Open Sans', sans-serif;
 
 
-// Font weights
+
+
+/* $. Font Weights
+\*----------------------------------------------------------------*/
 $thin:      100;
 $light:     300;
 $regular:   400;
 $medium:    500;
 $semi-bold: 600;
 $bold:      900;
+
+
+
+
+/* $. Face Face
+\*----------------------------------------------------------------*/
 
 @font-face {
   font-family: "Orator";

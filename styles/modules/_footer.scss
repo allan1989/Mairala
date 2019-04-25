@@ -4,7 +4,10 @@
   * Description:
     * The styling of the footer section
   * Sections:
-    * $. Footer
+    * $. Common styles
+    * $. Recent Posts
+    * $. Twitter Feeds
+    * $. Address
 
 */
 
@@ -12,7 +15,7 @@
 
 
 
-/* $. Footer
+/* $. Common styles
 \*----------------------------------------------------------------*/
 
 .footer{
@@ -87,5 +90,26 @@
   &:hover{
     text-decoration: underline;
   }
+}
+
+
+
+
+/* $. Twitter Feeds
+\*----------------------------------------------------------------*/
+
+.footer__feeds{
+  padding-left: 17px;
+}
+
+.footer__feed-author{
+  color: $color-brown;
+
+  margin-left: 10px;
+  
+  font-weight: $semi-bold;
+  font-size: .9em;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 

@@ -46,6 +46,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/*
+  * Title:
+    * Fonts
+  * Description:
+    * The styling definitions of everything related to fonts
+  * Sections:
+    * $. Font Families
+    * $. Font Weights
+    * $. Font-Face 
+
+*/
+/* $. Font Families
+\*----------------------------------------------------------------*/
+/* $. Font Weights
+\*----------------------------------------------------------------*/
+/* $. Face Face
+\*----------------------------------------------------------------*/
 @font-face {
   font-family: "Orator";
   src: url("../fonts/orator10.ttf");
@@ -878,10 +895,13 @@ table {
   * Description:
     * The styling of the footer section
   * Sections:
-    * $. Footer
+    * $. Common styles
+    * $. Recent Posts
+    * $. Twitter Feeds
+    * $. Address
 
 */
-/* $. Footer
+/* $. Common styles
 \*----------------------------------------------------------------*/
 .footer {
   background-color: #222222;
@@ -934,5 +954,18 @@ table {
   text-decoration: none; }
   .footer__link:hover {
     text-decoration: underline; }
+
+/* $. Twitter Feeds
+\*----------------------------------------------------------------*/
+.footer__feeds {
+  padding-left: 17px; }
+
+.footer__feed-author {
+  color: #7b6c63;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: .9em;
+  letter-spacing: 1px;
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
