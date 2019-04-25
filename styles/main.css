@@ -896,11 +896,14 @@ table {
 .footer__info {
   color: #7b6c63; }
 
+.footer__posts {
+  padding-left: 7px; }
+
 .footer__posts-wrapper {
   border-bottom: 1px solid;
   border-bottom-color: rgba(95, 95, 95, 0.4);
   margin-right: 20px;
-  padding: 28px 0; }
+  padding: 28px 0 20px 4px; }
 
 .footer__text {
   font-size: 0.874em;
@@ -919,7 +922,9 @@ table {
 .footer__posts-date {
   color: #5f5f5f;
   font-size: 0.624em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 6px; }
 
 .footer__posts-date--lowercase {
   text-transform: lowercase; }
@@ -927,5 +932,7 @@ table {
 .footer__link {
   color: currentColor;
   text-decoration: none; }
+  .footer__link:hover {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

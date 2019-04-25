@@ -34,12 +34,16 @@
   color: $color-brown;
 }
 
+.footer__posts{
+  padding-left: 7px;
+}
+
 .footer__posts-wrapper{
   border-bottom: 1px solid;
   border-bottom-color: rgba(95, 95, 95, .4);
 
   margin-right: 20px;
-  padding: 28px 0;
+  padding: 28px 0 20px 4px;
 }
 
 .footer__text{
@@ -60,10 +64,15 @@
   margin-top: 0;
 }
 
+
 .footer__posts-date{
   color: $color-grey-dark;
+
   font-size: 0.624em;
   text-transform: uppercase;
+
+  display: inline-block;
+  margin-bottom: 6px;
 }
 
 .footer__posts-date--lowercase{
@@ -74,5 +83,9 @@
   color: currentColor;
 
   text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
