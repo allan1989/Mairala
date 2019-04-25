@@ -7,7 +7,7 @@
     * $. Common styles
     * $. Recent Posts
     * $. Twitter Feeds
-    * $. Address
+    * $. Contact
 
 */
 
@@ -51,7 +51,7 @@
 
 .footer__text{
   font-size: 0.874em;
-  font-weight: 500;
+  font-weight: $bold;
   letter-spacing: .50px;
   line-height: 23.98px;
   word-spacing: 1px;
@@ -112,4 +112,19 @@
   letter-spacing: 1px;
   text-decoration: none;
 }
+
+
+
+
+/* $. Contact
+\*----------------------------------------------------------------*/
+
+.footer__contact{
+  padding-left: 24px;
+}
+
+.footer__contact-text{
+  margin-top: 10px;
+}
+
 
