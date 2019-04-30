@@ -11,10 +11,18 @@
 /* $. Mixins
 \*----------------------------------------------------------------*/
 
+/*
+ * @param  $bgColor   Colour of the background
+ * @param  $color     Colour of the text
+ */
+
 @mixin sectionColors($bgColor, $color) {
   background-color: $bgColor;
   color: $color;
 }
+
+
+
 
 
 /* $. Placeholders

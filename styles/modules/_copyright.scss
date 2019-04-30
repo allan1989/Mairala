@@ -1,0 +1,27 @@
+/*
+  * Title:
+    * Copyright
+  * Description:
+    * The styling of the copyright section
+  * Sections:
+    * $. Copyright
+*/
+
+
+
+
+
+/* $. Copyright
+\*----------------------------------------------------------------*/
+
+.copyright{
+  background-color: #1c1c1c;
+  color: $color-grey-dark;
+
+  font-family: $Raleway;
+  font-size: 1em;
+  font-weight: $light;
+  text-align: center;
+
+  padding: 32px 0 21px 0;
+}

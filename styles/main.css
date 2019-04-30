@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -68,6 +69,14 @@ table {
   src: url("../fonts/orator10.ttf");
   font-weight: normal;
   font-style: normal; }
+/*
+  Am├®liorations
+  - couleurs qui n'ont pas de variables;
+  - mixins pour les font sizes
+  - la width de 25% des sections
+  - cr├®er une variable $base pour les paddings et margins
+  - utiliser les fonctions lighten/darken pour certaines couleurs
+*/
 /*
   * Title:
     * Layout
@@ -211,6 +220,10 @@ table {
 */
 /* $. Mixins
 \*----------------------------------------------------------------*/
+/*
+ * @param  $bgColor   Colour of the background
+ * @param  $color     Colour of the text
+ */
 /* $. Placeholders
 \*----------------------------------------------------------------*/
 .about, .services__inner, .projects__inner, .section__intro, .team__inner, .blog__inner, .contact__wrapper {
@@ -908,7 +921,7 @@ table {
   font-family: "Raleway", sans-serif; }
 
 .footer__content {
-  padding: 60px 0 50px 0;
+  padding: 60px 0 42px 0;
   display: flex; }
   .footer__content section {
     width: 25%; }
@@ -982,5 +995,24 @@ table {
 .footer__icon {
   font-size: .9em;
   margin-right: 10px; }
+
+/*
+  * Title:
+    * Copyright
+  * Description:
+    * The styling of the copyright section
+  * Sections:
+    * $. Copyright
+*/
+/* $. Copyright
+\*----------------------------------------------------------------*/
+.copyright {
+  background-color: #1c1c1c;
+  color: #5f5f5f;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  padding: 32px 0 21px 0; }
 
 /*# sourceMappingURL=main.css.map */
