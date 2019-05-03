@@ -71,9 +71,7 @@ table {
   font-style: normal; }
 /*
   Am├®liorations
-  - couleurs qui n'ont pas de variables;
   - mixins pour les font sizes
-  - la width de 25% des sections
   - cr├®er une variable $base pour les paddings et margins
   - utiliser les fonctions lighten/darken pour certaines couleurs
   - v├®rifier les espaces pour les commentaires
@@ -924,14 +922,14 @@ table {
 .footer__content {
   padding: 60px 0 42px 0;
   display: flex; }
-  .footer__content section {
-    width: 25%; }
 
 .footer__info {
-  color: #7b6c63; }
+  color: #7b6c63;
+  width: 25%; }
 
 .footer__posts {
-  padding-left: 7px; }
+  padding-left: 7px;
+  width: 25%; }
 
 .footer__posts-wrapper {
   border-bottom: 1px solid;
@@ -947,7 +945,7 @@ table {
   word-spacing: 1px;
   margin-top: 18px;
   padding-right: 18px;
-  color: white;
+  color: #929292;
   opacity: .8; }
 
 .footer__text--margin {
@@ -972,7 +970,8 @@ table {
 /* $. Twitter Feeds
 \*----------------------------------------------------------------*/
 .footer__feeds {
-  padding-left: 17px; }
+  padding-left: 17px;
+  width: 25%; }
 
 .footer__feed-author {
   color: #7b6c63;
@@ -985,7 +984,8 @@ table {
 /* $. Contact
 \*----------------------------------------------------------------*/
 .footer__contact {
-  padding-left: 24px; }
+  padding-left: 24px;
+  width: 25%; }
 
 .footer__contact-text {
   margin-top: 26px; }

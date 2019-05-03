@@ -27,18 +27,16 @@
   padding: 60px 0 42px 0;
 
   display: flex;
-
-  section{
-    width: 25%;
-  }
 }
 
 .footer__info{
   color: $color-brown;
+  width: 25%;
 }
 
 .footer__posts{
   padding-left: 7px;
+  width: 25%;
 }
 
 .footer__posts-wrapper{
@@ -59,7 +57,7 @@
   margin-top: 18px;
   padding-right: 18px;
 
-  color: lighten($color-white, 57.25);
+  color: lighten($color-black, 57.25);
   opacity: .8;
 }
 
@@ -100,6 +98,7 @@
 
 .footer__feeds{
   padding-left: 17px;
+  width: 25%;
 }
 
 .footer__feed-author{
@@ -121,6 +120,7 @@
 
 .footer__contact{
   padding-left: 24px;
+  width: 25%;
 }
 
 .footer__contact-text{
