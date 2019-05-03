@@ -73,8 +73,6 @@ table {
   Am├®liorations
   - mixins pour les font sizes
   - cr├®er une variable $base pour les paddings et margins
-  - utiliser les fonctions lighten/darken pour certaines couleurs
-  - v├®rifier les espaces pour les commentaires
 */
 /*
   * Title:
@@ -288,13 +286,17 @@ table {
   letter-spacing: 1px;
   position: relative;
   color: currentColor; }
-
-.menu__link.active:after {
-  content: '';
-  display: block;
-  margin-top: 7px;
-  height: 5px;
-  background-color: #7b6c63; }
+  .menu__link:after {
+    content: '';
+    display: block;
+    margin-top: 7px;
+    height: 5px;
+    background-color: #7b6c63;
+    opacity: 0; }
+  .menu__link:hover:after {
+    opacity: 1; }
+  .menu__link.active:after {
+    opacity: 1; }
 
 /*
   * Title:

@@ -9,12 +9,19 @@
     * $. Main navigation
 */
 
+
+
+
+
 /* $. Background Colors
 \*----------------------------------------------------------------*/
 
 .header{
   @include sectionColors($color-black-medium, $color-white);
 }
+
+
+
 
 
 /* $. Layout
@@ -29,9 +36,11 @@
 }
 
 
+
+
+
 /* $. Main navigation
 \*----------------------------------------------------------------*/
-
 
 .menu{
   display: flex;
@@ -53,13 +62,22 @@
   position: relative;
 
   color: currentColor;
-}
 
-.menu__link.active:after{
-  content:'';
-  display: block;
-  margin-top: 7px;
-  height: 5px;
+  &:after{
+    content:'';
+    display: block;
+    margin-top: 7px;
+    height: 5px;
+  
+    background-color: $color-brown;
+    opacity: 0;
+  }
 
-  background-color: $color-brown;
+  &:hover:after{
+    opacity: 1;
+  }
+
+  &.active:after{
+    opacity: 1;
+  }
 }
