@@ -8,6 +8,10 @@
     * $. Call To Action Button
 */
 
+
+
+
+
 /* $. Title
 \*----------------------------------------------------------------*/
 
@@ -48,12 +52,16 @@
   color: $color-brown;
 }
 
+
+
+
+
 /* $. Call To Action Button
 \*----------------------------------------------------------------*/
 
 .hero__button{
   color: inherit;
-  background-color: #272520;
+  background-color: lighten(saturate(adjust-hue($color-black, 43), 9.86), 13.92);
   border-radius: 5px;
 
   letter-spacing: 2px;

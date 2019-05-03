@@ -681,7 +681,7 @@ table {
   padding: 0 80px; }
 
 .team__member-social-link {
-  border: 3px solid white;
+  border: 3px solid currentColor;
   border-radius: 50%;
   color: #ffffff;
   text-align: center;
@@ -741,7 +741,7 @@ table {
 .testimonials__button {
   width: 15px;
   height: 15px;
-  border: 2px solid #ffffff;
+  border: 2px solid currentColor;
   border-radius: 50%;
   display: inline-block; }
   .testimonials__button:hover {
@@ -838,7 +838,7 @@ table {
 
 .blog__call-to-action-button {
   background-color: #7b6c63;
-  border: 8px solid #ebebeb;
+  border: 8px solid white;
   border-radius: 50%;
   color: #ffffff;
   display: inline-block;
@@ -947,7 +947,7 @@ table {
   word-spacing: 1px;
   margin-top: 18px;
   padding-right: 18px;
-  color: #929292;
+  color: white;
   opacity: .8; }
 
 .footer__text--margin {

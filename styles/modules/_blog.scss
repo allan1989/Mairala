@@ -125,7 +125,7 @@
 
 .blog__call-to-action-button{
   background-color: $color-brown;
-  border: 8px solid #ebebeb;
+  border: 8px solid lighten($color-white, 92.16);
   border-radius: 50%;
   color: $color-white;
 
