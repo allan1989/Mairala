@@ -89,6 +89,9 @@ table {
   margin: 0 auto;
   border: 1px solid red; }
 
+@media screen and (max-width: 1168px) {
+  .container {
+    padding: 0 10px; } }
 /*
   * Title:
     * Headings
@@ -298,6 +301,17 @@ table {
   .menu__link.active:after {
     opacity: 1; }
 
+@media screen and (max-width: 736px) {
+  .site__header {
+    flex-direction: column; }
+
+  .menu {
+    column-count: 2;
+    display: block;
+    margin-top: 40px; }
+
+  .menu__item {
+    padding-top: 20px; } }
 /*
   * Title:
     * Hero
