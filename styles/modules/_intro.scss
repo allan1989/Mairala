@@ -79,3 +79,26 @@
 .intro__text-bottom{
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1182px){
+
+  .intro{
+    text-align: center;
+  }
+
+  .intro__inner::after{
+    content: '';
+    display: none;
+  }
+
+  .intro__outer::after{
+    content: '';
+    display: none;
+  }
+
+  .intro__inner{
+    padding: 88px 0;
+    max-width: none;
+  }
+
+}
