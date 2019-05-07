@@ -351,6 +351,12 @@ table {
 .hero__text-important {
   color: #7b6c63; }
 
+@media screen and (max-width: 376px) {
+  .hero {
+    padding: 5.7em 0; }
+
+  .hero__text-bottom {
+    font-size: 3em; } }
 /* $. Call To Action Button
 \*----------------------------------------------------------------*/
 .hero__button {
