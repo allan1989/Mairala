@@ -230,7 +230,7 @@ table {
   color: #7b6c63;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  padding: 84px 0; }
+  padding: 84px 10px; }
 
 .about__text, .projects__text, .team__text, .blog__text {
   font-size: 1.125em;
