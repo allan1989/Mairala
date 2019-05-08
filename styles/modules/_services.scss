@@ -45,3 +45,20 @@
 
   margin-bottom: 33px;
 }
+
+@media screen and (max-width: 990px){
+
+  .services__text--baseline{
+    padding: 26px 0 0 0;
+  }
+
+  .services-details{
+    flex-direction: column;
+  }
+
+  .services-details__item{
+    margin: 10px 0;
+  }
+
+
+}
