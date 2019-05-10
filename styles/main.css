@@ -501,6 +501,12 @@ table {
 
   .services-details__item {
     margin: 10px 0; } }
+@media screen and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+  .services-details__item {
+    width: 32%; } }
+@media screen and (max-width: 990px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+  .services-details__item {
+    width: 100%; } }
 /*
   * Title:
     * Skills
