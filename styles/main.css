@@ -540,6 +540,17 @@ table {
 .skills__chart__label {
   margin-top: 26px; }
 
+@media screen and (max-width: 1168px) {
+  .skills {
+    background-color: #1A1A1A;
+    background-image: none; }
+
+  .skills__chart {
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .chart {
+    margin: 15px; } }
 /*
   * Title:
     * Projects
