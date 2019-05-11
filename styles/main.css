@@ -640,6 +640,9 @@ table {
   padding: 78px 0 90px 0;
   border: 1px solid red; }
 
+@media screen and (max-width: 1438px) {
+  .projects__thumbnails {
+    flex-wrap: wrap; } }
 /*
   * Title:
     * Common section

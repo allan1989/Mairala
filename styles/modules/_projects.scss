@@ -114,3 +114,11 @@
 .projects__text{
   @extend %section__text;
 }
+
+@media screen and (max-width: 1438px){
+
+  .projects__thumbnails{
+    flex-wrap: wrap;
+  }
+
+}
