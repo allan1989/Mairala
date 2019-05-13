@@ -121,3 +121,22 @@
     border-color: transparent;
   }
 }
+
+@media screen and (max-width: 1168px){
+
+  .team__members{
+    flex-direction: column;
+  }
+  .team__member-pic{
+    margin: 30px auto;
+  }
+
+}
+
+@media screen and (max-width: 394px){
+
+  .team__member-pic{
+    width: 100%;
+  }
+
+}
