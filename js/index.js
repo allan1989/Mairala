@@ -40,29 +40,62 @@ $(document).ready(function(){
  /* $. Slider Testimonials
   \*----------------------------------------------------------------*/
 
-  var $wrapper  =  $('.testimonials__wrapper');
-  var $content  =  $('.testimonials__content');
-  var $inner    =  $('.testimonials__inner');
+  var Slider = (function(){
+
+    // DOM Elements
+    var $content      =  $('.testimonials__content');
+    var $inner        =  $('.testimonials__inner');
+    var $wrapper      =  $('.testimonials__wrapper');
+    var $currentWidth = null;
+    
+    // Resize on load/window resize
+    function setLayout(){
+      var $wrapperWidth = $wrapper.width();
+      var $width = $wrapperWidth * $content.children().length;
+      $content.width($width);
+      $inner.width($wrapperWidth);
+      $currentWidth = $width;
+
+    }
+
+    // Change quote
+    function changeQuote(){
+      var $this   =  $(this);
+      var $choice =  Number($(this).attr('data-number'));
+      var $length =  Math.round($currentWidth);
+      var $val    =  $length / 3 * $choice + 'px';
+
+      $controls.not($this).removeClass('active');
+      $this.addClass('active');
+
+      $content.css({
+        "transform": "translateX(-" + $val + ")"
+      });
+    }
+
+    // Attack function changeQuote on buttons
+    function init($el){
+      $el.on('click', changeQuote);
+    }
+   
+
+    return{
+      setLayout: setLayout,
+      changeQuote: init
+    }
+
+  })();
+
+
   var $controls =  $('.testimonials__button');
-  var $width    =  $content.children().width() * $content.children().length * $content.children().length;
 
-  $content.width($width);
-  $inner.width($width / 3);
+  // Set the correct widths on page load
+  Slider.setLayout();
 
-  $controls.on('click', function(){
+  // Set the correct widths when window resizes
+  $(window).resize(Slider.setLayout);
 
-    var $this   =  $(this);
-    var $choice =  Number($(this).attr('data-number'));
-    var $length =  Math.round($width);
-    var $val    =  $length / 3 * $choice + 'px';
-
-    $controls.not($this).removeClass('active');
-    $this.addClass('active');
-
-    $content.css({
-      "transform": "translateX(-" + $val + ")"
-    });
-
-  });
+  // Change the quote when clicking the buttons
+  Slider.changeQuote($controls);
 
 });
