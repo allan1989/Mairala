@@ -82,3 +82,21 @@
     transition: background-color .8s ease;
   }
 }
+
+@media screen and (max-width: 790px){
+
+  .contact__form-wrapper{
+    width: 100%;
+  }
+
+  .contact__form-top{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__form-input{
+    display: block;
+    width: 98%;
+  }
+
+}
