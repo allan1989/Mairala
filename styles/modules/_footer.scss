@@ -136,3 +136,19 @@
 
   margin-right: 10px;
 }
+
+@media screen and (max-width: 1132px){
+
+  .footer__content{
+    flex-wrap: wrap;
+  }
+
+  .footer__info,
+  .footer__posts,
+  .footer__feeds,
+  .footer__contact{
+    width: 50%;
+    margin-top: 50px;
+  }
+
+}
