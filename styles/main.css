@@ -1121,6 +1121,12 @@ table {
     width: 50%;
     margin-top: 50px;
     padding-left: 0; } }
+@media screen and (max-width: 800px) {
+  .footer__info,
+  .footer__posts,
+  .footer__feeds,
+  .footer__contact {
+    width: 100%; } }
 /*
   * Title:
     * Copyright
