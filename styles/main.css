@@ -1119,7 +1119,8 @@ table {
   .footer__feeds,
   .footer__contact {
     width: 50%;
-    margin-top: 50px; } }
+    margin-top: 50px;
+    padding-left: 0; } }
 /*
   * Title:
     * Copyright
