@@ -86,8 +86,7 @@ table {
 \*----------------------------------------------------------------*/
 .container {
   max-width: 1170px;
-  margin: 0 auto;
-  border: 1px solid red; }
+  margin: 0 auto; }
 
 @media screen and (max-width: 1168px) {
   .container {
@@ -568,7 +567,6 @@ table {
 /* $. Projects
 \*----------------------------------------------------------------*/
 .projects__thumbnails {
-  border: 1px solid blue;
   color: #ffffff;
   display: flex;
   justify-content: center; }
@@ -637,8 +635,7 @@ table {
   font-family: "Raleway", sans-serif;
   font-size: 1em;
   text-align: center;
-  padding: 78px 0 90px 0;
-  border: 1px solid red; }
+  padding: 78px 0 90px 0; }
 
 @media screen and (max-width: 1438px) {
   .projects__thumbnails {
